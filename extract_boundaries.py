@@ -16,7 +16,7 @@ def extract_boundaries(args, feat_paths):
         wav, _ = torchaudio.load(os.path.join(args.libri_root, feat_path))
         """Extract boundaries of wav"""
 
-        boundaries = None # array of boundaries time stemps or the index according to 20ms sample rate
+        boundaries = None # array of boundaries time stamps or the index according to 20ms sample rate
         raise NotImplementedError
 
         boundaries = boundaries.cpu().detach().numpy()
