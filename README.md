@@ -1,6 +1,6 @@
 Given an audio, the corresonding boundaries can be in either format
 
-1. Index of each boundaries with 20ms sample rate
+1. Index of each boundaries from left to right with 20ms sample rate
 ```
 boundaries = [4, 8, 12, 15, ...]
 ```
